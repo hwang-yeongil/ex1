@@ -16,17 +16,15 @@ class ex1{
 
   public static void main(String[] args){
     String number[] = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
-    // String shape[] = {"Spade","Diamond","Hearth","Clover"};
+    String shape[] = {"Spade","Diamond","Hearth","Clover"};
 
-    for (int i = 0; i < number.length; i++) {
-            String shape1 = number[i];
-            System.out.println(shape1 );
-        }
+    String[] cards = new String[52];
+
+    for(int a = 0; a > 52 ; a++ ){
+
+
+    }
+
+
   }
-}
-
-class card{
-  
-
-
 }
